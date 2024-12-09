@@ -1,4 +1,6 @@
-const clientId = "your-client-id-here"; // Replace with your client id
+import { secret } from './secrets';
+
+const clientId = secret; // Replace with your client id
 const code = undefined;
 
 if (!code) {
