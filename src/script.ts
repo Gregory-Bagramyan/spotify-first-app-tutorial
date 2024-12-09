@@ -1,6 +1,6 @@
-import { secret } from './secrets';
+import { myClientId } from './secret';
 
-const clientId = secret; // Replace with your client id
+const clientId = myClientId; // Replace with your client id
 const code = undefined;
 
 if (!code) {
